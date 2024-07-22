@@ -1,0 +1,90 @@
+body{
+    background-color: #F3FEB8;
+}
+container{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.col{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: #FFDE4D;
+    border-radius: 20px;
+}
+#player1 ,#player2, #lead{
+    color: #F3FEB8;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px #000;
+    
+}
+#p1,#p2{
+    color: #F3FEB8;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px #000;
+}
+
+button {
+    background-color: #FFDE4D;
+    color:#F3FEB8;
+    width:100%;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    color: #FF4C4C;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#instructions{
+    color: #FF4C4C;
+    font-size: 25px;
+    background-color: #FFDE4D;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 1px #000;
+
+}
+.instructions {
+    background-color: #FFDE4D;
+    font-size: 16px;
+    padding-left:10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
